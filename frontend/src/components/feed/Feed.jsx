@@ -1,8 +1,16 @@
-import { Box } from '@mui/material';
+import { Box, Stack } from '@mui/material';
+import Post from '../post';
 
 const Feed = () => {
   return (
-    <Box bgcolor='pink' flex={4} p={2}>THIS IS A FEED</Box>
+    <Box flex={4} p={2}>
+      <Stack spacing={2}>
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+      </Stack>
+    </Box>
   )
 }
 
