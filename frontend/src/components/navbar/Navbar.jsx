@@ -2,7 +2,7 @@ import { AppBar, Typography, InputBase, Badge, Avatar, Menu, MenuItem } from "@m
 import { Mail, Notifications, Pets } from '@mui/icons-material';
 import { useState } from "react";
 
-import { StyledToolbar, Search, Icons, UserBox } from './styles';
+import { StyledToolbar, Search, Icons, UserBox } from './styled.components';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
