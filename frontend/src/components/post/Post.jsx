@@ -8,7 +8,7 @@ const Post = () => {
   <Card>
     <CardHeader
       avatar={
-        <Avatar sx={{ bgcolor: theme.palette.primary.light }} aria-label='recipe'>
+        <Avatar sx={{ bgcolor: 'primary.light' }} aria-label='recipe'>
           J
         </Avatar>
       }
