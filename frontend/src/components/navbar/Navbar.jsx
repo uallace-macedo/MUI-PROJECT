@@ -36,6 +36,7 @@ const Navbar = () => {
         </UserBox>
       </StyledToolbar>
       <Menu
+        disableScrollLock
         id="demo-positioned-menu"
         aria-labelledby="demo-positioned-menu"
         open={open}

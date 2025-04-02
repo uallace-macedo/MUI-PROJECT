@@ -38,6 +38,7 @@ const Rightbar = () => {
             </ImageList>
           </Box>
           <Box>
+            {/*TODO: Change conversation area */}
             <Typography variant='h6' fontWeight={100}>Latest Conversations</Typography>
             <List>
               <ListItem display='flex' alignItems='flex-start'>
@@ -47,7 +48,7 @@ const Rightbar = () => {
                 <ListItemText
                   primary='Alice'
                   secondary={
-                    <Box sx={{ overflowWrap: 'break-word' }}>
+                    <React.Fragment>
                       <Typography
                         component='span'
                         variant='body2'
@@ -59,7 +60,7 @@ const Rightbar = () => {
                         Alice Connors
                       </Typography>
                       {" — Hey, how's it going? I was just thinking about that funny story you told me the other day. It still cracks me up!"}
-                    </Box>
+                    </React.Fragment>
                   }
                 />
               </ListItem>
@@ -71,7 +72,7 @@ const Rightbar = () => {
                 <ListItemText
                   primary='Laura'
                   secondary={
-                    <Box sx={{ overflowWrap: 'break-word' }}>
+                    <React.Fragment>
                       <Typography
                         component='span'
                         variant='body2'
@@ -83,7 +84,7 @@ const Rightbar = () => {
                         Laura Stenford
                       </Typography>
                       {" — Hey, how's it going? You won't believe the funny story that happened to me today! I have to tell you later."}
-                    </Box>
+                    </React.Fragment>
                   }
                 />
               </ListItem>
