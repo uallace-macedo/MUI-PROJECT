@@ -59,7 +59,7 @@ const Rightbar = () => {
                       >
                         Alice Connors
                       </Typography>
-                      {" — Hey, how's it going? I was just thinking about that funny story you told me the other day. It still cracks me up!"}
+                      {" — Hey, how's it going?"}
                     </React.Fragment>
                   }
                 />
@@ -83,7 +83,7 @@ const Rightbar = () => {
                       >
                         Laura Stenford
                       </Typography>
-                      {" — Hey, how's it going? You won't believe the funny story that happened to me today! I have to tell you later."}
+                      {" — Hey, how's it going?"}
                     </React.Fragment>
                   }
                 />
