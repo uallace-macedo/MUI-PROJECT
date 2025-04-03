@@ -9,6 +9,7 @@ const Search = styled('div')(({theme}) => ({
   backgroundColor: 'white',
   padding: '0 10px',
   borderRadius: theme.shape.borderRadius,
+  color: 'gray',
   width: '40%'
 }));
 

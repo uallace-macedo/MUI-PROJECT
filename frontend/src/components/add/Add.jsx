@@ -1,13 +1,7 @@
 import React from 'react';
-import { Avatar, Box, Fab, Modal, Tooltip, Typography, Stack, styled, TextField, Button } from '@mui/material';
+import { Box, Fab, Modal, Tooltip, Typography, Stack, styled, TextField, Button } from '@mui/material';
 import { Add as AddIcon } from '@mui/icons-material';
 import { ModalStyle } from './styles';
-
-const UserBox = styled(Box)({
-  display: 'flex',
-  alignItems: 'center',
-  gap: 12
-})
 
 const Add = () => {
   const [open, setOpen] = React.useState(false);
@@ -38,7 +32,7 @@ const Add = () => {
         aria-labelledby='modal-modal-title'
         aria-describedby='modal-modal-description'
       >
-        <Box sx={ModalStyle}>
+        <Box sx={ModalStyle} bgcolor={'background.default'} color={'text.primary'}>
           <Stack gap={2}>
             <Typography id='modal-modal-title' color='gray' variant='h6' component='h2'>
               Create Post
@@ -49,6 +43,7 @@ const Add = () => {
               <TextField
                 placeholder='Title'
                 variant='standard'
+                sx={{ color: 'lime' }}
               />
 
               <TextField
