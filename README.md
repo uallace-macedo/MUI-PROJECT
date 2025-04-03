@@ -8,7 +8,7 @@ Este repositório possui a interface de usuário (frontend) de uma aplicação w
 
 ### ✨ Demonstração
 
-![Modo Claro](screenshots-gifs/light-to-darkmode.gif)
+![Modo Claro](./frontend/screenshots-gifs/light-to-darkmode.gif)
 
 ### 🚀 Funcionalidades em Destaque
 
@@ -27,22 +27,22 @@ Este repositório possui a interface de usuário (frontend) de uma aplicação w
 ### 📸 Capturas de Tela
 
 #### ☀️ Modo Claro
-![Modo Claro](screenshots-gifs/home-lightmode.png)
+![Modo Claro](./frontend/screenshots-gifs/home-lightmode.png)
 
 #### 🌙 Modo Escuro
-![Modo Escuro](screenshots-gifs/home-darkmode.png)
+![Modo Escuro](./frontend/screenshots-gifs/home-darkmode.png)
 
 #### 📱 Responsividade (Exemplo em Dispositivo Móvel [320px])
-![Modo Claro](screenshots-gifs/responsible-320px-light.png)
-![Modo Escuro](screenshots-gifs/responsible-320px-dark.png)
+![Modo Claro](./frontend/screenshots-gifs/responsible-320px-light.png)
+![Modo Escuro](./frontend/screenshots-gifs/responsible-320px-dark.png)
 
 #### 📱 Responsividade (Exemplo em Dispositivo Móvel [768px])
-![Modo Claro](screenshots-gifs/responsible-768px-light.png)
-![Modo Escuro](screenshots-gifs/responsible-768px-dark.png)
+![Modo Claro](./frontend/screenshots-gifs/responsible-768px-light.png)
+![Modo Escuro](./frontend/screenshots-gifs/responsible-768px-dark.png)
 
 #### 💻 Responsividade (Exemplo em Desktop [1024px])
-![Modo Claro](screenshots-gifs/responsible-1024px-light.png)
-![Modo Escuro](screenshots-gifs/responsible-1024px-dark.png)
+![Modo Claro](./frontend/screenshots-gifs/responsible-1024px-light.png)
+![Modo Escuro](./frontend/screenshots-gifs/responsible-1024px-dark.png)
 
 ### 🛠️ Como Começar a Integrar o Backend
 
