@@ -1,8 +1,6 @@
 import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from '@mui/material';
 import { Favorite, FavoriteBorder, MoreVert, Share, ShareOutlined } from '@mui/icons-material';
 
-import theme from '../../theme';
-
 const Post = () => {
   return (
   <Card>

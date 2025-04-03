@@ -9,7 +9,7 @@ import Add from './components/add/Add';
 function App() {
 
   return (
-    <Box>
+    <Box >
       <Navbar />
       <Stack direction='row' spacing={2} justifyContent="space-betwween">
         <Sidebar />
