@@ -41,6 +41,10 @@ Este projeto é um laboratório de experimentação com o Material UI (MUI) e Re
 ![Modo Claro](./frontend/screenshots-gifs/responsible-320px-light.png)
 ![Modo Escuro](./frontend/screenshots-gifs/responsible-320px-dark.png)
 
+#### 📱 Responsividade Sidebar (Exemplo em Dispositivo Móvel [320px])
+![Modo Claro](./frontend/screenshots-gifs/mobile-sidebar-light.png)
+![Modo Escuro](./frontend/screenshots-gifs/mobile-sidebar-dark.png)
+
 #### 📱 Responsividade (Exemplo em Dispositivo Móvel [768px])
 ![Modo Claro](./frontend/screenshots-gifs/responsible-768px-light.png)
 ![Modo Escuro](./frontend/screenshots-gifs/responsible-768px-dark.png)
