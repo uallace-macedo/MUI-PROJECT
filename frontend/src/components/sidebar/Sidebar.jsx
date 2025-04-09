@@ -1,5 +1,5 @@
-import { AccountBox, Group, Home, Article, Person,  Settings, Store, ModeNight } from '@mui/icons-material';
-import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, styled, Switch } from '@mui/material';
+import { AccountBox, Group, Home, Article, Person,  Settings, Store } from '@mui/icons-material';
+import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material';
 import { useThemesContext } from '../../theme/ThemesContextProvider';
 
 
@@ -7,7 +7,7 @@ const Sidebar = () => {
   const { toggleThemeMode } = useThemesContext();
 
   return (
-    <Box  flex={1} p={2} sx={{display: {xs: 'none', sm: 'block'}, minWidth: '170px'}}>
+    <Box flex={1} p={2} sx={{display: {xs: 'none', sm: 'block'}, minWidth: '170px'}}>
       <Box position='fixed'>
         <List>
           <ListItem disablePadding>
